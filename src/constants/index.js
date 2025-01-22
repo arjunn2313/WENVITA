@@ -88,20 +88,21 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Wedding Websites Delivered",
+    value: "20+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Portfolio Websites Completed",
+    value: "40+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Reels Created",
+    value: "100+",
   },
 ];
+
 
 export const footerLinks = [
   {
