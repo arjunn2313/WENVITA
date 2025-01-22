@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { close, logo, menu } from '../assets'
 import { navLinks } from '../constants'
 import logo1 from "../assets/logo.png"
-import logo3 from "../assets/logo5.jpg"
+import logo3 from "../assets/logo6.jpg"
 
 const Navbar = () => {
 

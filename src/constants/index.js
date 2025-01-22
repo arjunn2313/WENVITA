@@ -38,25 +38,27 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Custom Designs",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We create personalized wedding websites and reels that reflect your unique style and story.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Secure",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
+      "Your privacy and data security are our priority. We use advanced measures to protect every detail.",
+  }
+  ,
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Seamless Delivery",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our team delivers your website and reels quickly and efficiently, so you can focus on the celebration.",
   },
 ];
+
 
 export const feedback = [
   {
