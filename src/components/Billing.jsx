@@ -1,41 +1,41 @@
-import React from 'react'
-import { apple, bill, google } from '../assets'
-import styles, { layout } from '../style'
+import React from "react";
+import { apple, bill, google } from "../assets";
+import styles, { layout } from "../style";
+import demo2 from "../assets/demo3.avif";
 
 const Billing = () => {
   return (
-    <section id='product' className={layout.sectionReverse}>
+    <section id="demo" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
-          src={bill}
-          alt='billing'
-          className='w-[100%] h-[100%] relative z-[5]'
+          src={demo2}
+          alt="billing"
+          className="w-[100%] h-[100%] relative z-[5]"
         />
-        <div className='absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient'/>
-        <div className='absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient'/>
+        <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
+        <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
       </div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Easily control your <br className='sm:block hidden'/> billing & invoicing.</h2>
+        <h2 className={styles.heading2}>
+          Design Your Dream <br className="sm:block hidden" /> Wedding Website.
+        </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Elit enim sed massa etiam.
-          Mauris eu adipiscing ultrices ametodio aenean neque.
-          Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+          Create a personalized space for your special day. From beautiful
+          designs to seamless RSVPs, we make wedding planning effortless and
+          memorable. Share your love story, event details, and much more with a
+          stunning wedding website tailored just for you." This combination
+          conveys both the service and the ease of use, focusing on
+          personalization and convenience. Let me know if you'd like any tweaks!
         </p>
-        <div className='flex flex-row flex-wrap sm:mt-10 mt-6'>
-          <img
-            src={apple}
-            alt='app-store'
-            className='w-[128px] h-[42px] object-contain mr-5 cursor-pointer'
-          />
-          <img
-            src={google}
-            alt='google-play'
-            className='w-[128px] h-[42px] object-contain cursor-pointer'
-          />
-        </div>
-      </div>  
+        <button
+          type="button"
+          className={`py-4 mt-10 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}
+        >
+         View Demo
+        </button>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Billing
+export default Billing;

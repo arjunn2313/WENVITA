@@ -1,30 +1,34 @@
-import React from 'react'
-import { card } from '../assets'
-import Button from './Button'
-import styles, { layout } from '../style'
+import React from "react";
+import { card } from "../assets";
+import Button from "./Button";
+import styles, { layout } from "../style";
+import demo1 from "../assets/demo 1.webp";
 
 const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Find a better card deal <br className='sm:block hidden'/>in few easy steps.</h2>
+        <h2 className={styles.heading2}>
+          Create Your Perfect <br className="sm:block hidden" />
+          Wedding Website.
+        </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Arcu tortor,
-          purus in mattis at sed integer faucibus.
-          Aliquet quis aliquet eget mauris tortor.ç 
-          Aliquet ultrices ac, ametau.
+          Design a personalized wedding website that reflects your unique love
+          story. From guest lists to RSVP management, we provide everything you
+          need to plan and share your special day effortlessly.
         </p>
-        <Button styles='mt-10'/>
+        <button
+          type="button"
+          className={`py-4 mt-10 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}
+        >
+         View Demo
+        </button>
       </div>
       <div className={layout.sectionImg}>
-        <img
-          src={card}
-          alt='card'
-          className='w-[100%] h-[100%]'
-        />
+        <img src={demo1} alt="card" className="w-[100%] h-[100%]" />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default CardDeal
+export default CardDeal;
